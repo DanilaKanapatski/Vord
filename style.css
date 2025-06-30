@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Hauora';
+    src: url('assets/fonts/Hauora-ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('assets/fonts/Hauora-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hauora';
+    src: url('assets/fonts/Hauora-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --main-bronze: #be9f5c;
+    --main-white: #fcfcfc;
+    --main-black: #09090b;
+    --main-disabled-grey: #c4c4c4;
+}
+
+body {
+    font-family: 'Hauora', sans-serif;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+
+/*start*/
+
+
+
+/*footer*/
+
+.footer {
+    background: #191919;
+    color: var(--main-white);
+    height: 100vh;
+    padding: 276px 0 84px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.125;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.0625;
+    letter-spacing: -0.05em;
+    color: #f6f6f6;
+}
+
+.footer-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a {
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: -0.05em;
+        text-transform: uppercase;
+        color: var(--main-white);
+        transition: all 0.5s ease;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    >div {
+        display: flex;
+        gap: 242px;
+    }
+}
+
+.footer-etc {
+    margin-top: 186px;
+
+    span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.05em;
+    }
+
+    a {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.05em;
+        transition: all 0.5s ease;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        transition: all 0.5s ease;
+
+    }
+}
+
+.footer-etc a:nth-child(2) {
+    margin-left: 39px;
+}
+
+.footer-etc a:nth-child(3) {
+    margin-left: 155px;
+}
