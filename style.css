@@ -395,7 +395,7 @@ video.bg-video {
     margin-left: 155px;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     .container {
         max-width: 744px;
@@ -451,7 +451,7 @@ video.bg-video {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
     .container {
         max-width: 320px;
